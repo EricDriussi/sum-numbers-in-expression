@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class LogicShould {
 
     @Test
-    void shouldGiveMeTheAnswerToLifeTheUniverseAndEverything() {
+    void GiveMeTheAnswerToLifeTheUniverseAndEverything() {
         assertEquals(42, new Logic().theAnswerToLifeTheUniverseAndEverything());
     }
 }
